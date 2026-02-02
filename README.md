@@ -25,7 +25,11 @@ If you find FemGRL useful for your research, please consider giving a star. Than
 
 This dataset consists of 5 basic geometric shapes defined by parameters $L_1$, $L_2$, and $L_3$.
 
-![Basic Lossless Scatterers](<Basic lossless scatterers.png>)
+<div align="center">
+  <img src="Basic_lossless_scatterers.png" alt="Basic Lossless Scatterers" width="80%">
+  <br>
+  <em>Basic Lossless Scatterers</em>
+</div>
 
 #### Training Data
 * **Total Samples:** 7,424 
@@ -50,8 +54,11 @@ A separate set for testing generalization with distinct parameter ranges and spe
 
 This dataset focuses on complex metallic structures with multi-branched geometries.
 
-![Single Metal Scatterers](<Single metal scatterers.png>)
-*(a-g) Various branched metal structures*
+<div align="center">
+  <img src="Single_metal_scatterers.png" alt="Single Metal Scatterers" width="80%">
+  <br>
+  <em>Single Metal Scatterers</em>
+</div>
 
 #### Training Data
 * **Total Samples:** 8,448 
@@ -78,8 +85,11 @@ This dataset focuses on complex metallic structures with multi-branched geometri
 
 Datasets designed for transfer learning tasks involving multiple interacting scatterers.
 
-![Multiple Metal Scatterers](<Transfer learning on Multiple metal scatterers.png>)
-*(a) Configuration 1, (b) Configuration 2*
+<div align="center">
+  <img src="Multiple_metal_scatterers.png" alt="Multiple Metal Scatterers" width="80%">
+  <br>
+  <em>Multiple Metal Scatterers</em>
+</div>
 
 #### Dataset Specifications
 * **Total Samples:** 3,456
