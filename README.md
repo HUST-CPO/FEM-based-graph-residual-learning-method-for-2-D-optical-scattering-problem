@@ -16,7 +16,7 @@ If you find FemGRL useful for your research, please consider giving a star. Than
 
 ## Data type
 **Global Simulation Settings:**
-- [cite_start]**Incident Field:** Plane wave defined as $E_{inc} = [1, 0, 0]e^{i(k_0 x \cos\theta + k_0 y \sin\theta)}$[cite: 1].
+- **Incident Field:** Plane wave defined as $E_{inc} = [1, 0, 0]e^{i(k_0 x \cos\theta + k_0 y \sin\theta)}$.
 - **Center Position ($c_x, c_y$):** Randomly sampled within the range $[-500, 500]$ nm.
 
 ---
@@ -29,8 +29,8 @@ This dataset consists of 5 basic geometric shapes defined by parameters $L_1$, $
 *(a) Circle, (b) Ellipse, (c) Rectangle, (d) Trapezoid, (e) Cross*
 
 #### Training Data
-* [cite_start]**Total Samples:** 7,424 [cite: 28]
-* [cite_start]**Incident Angles ($\theta$):** 8 directions $[0^\circ, 45^\circ, 90^\circ, 135^\circ, 180^\circ, 225^\circ, 270^\circ, 315^\circ]$ [cite: 2]
+* **Total Samples:** 7,424 
+* **Incident Angles ($\theta$):** 8 directions $[0^\circ, 45^\circ, 90^\circ, 135^\circ, 180^\circ, 225^\circ, 270^\circ, 315^\circ]$ 
 
 | Shape | Geometry Parameters (nm) | Sampling Strategy | Count |
 | :--- | :--- | :--- | :--- |
@@ -42,8 +42,8 @@ This dataset consists of 5 basic geometric shapes defined by parameters $L_1$, $
 
 #### Generalization (Test) Data
 A separate set for testing generalization with distinct parameter ranges and specific angles.
-* [cite_start]**Total Samples:** 88 [cite: 62]
-* [cite_start]**Configurations:** Includes specific continuous ranges (e.g., $L_1 \in [200, 800]$ nm) and single incident angles per shape (e.g., $\theta=0^\circ$ for Circle) [cite: 32-61].
+* **Total Samples:** 88
+* **Configurations:** Includes specific continuous ranges (e.g., $L_1 \in [200, 800]$ nm) and single incident angles per shape (e.g., $\theta=0^\circ$ for Circle).
 
 ---
 
@@ -55,23 +55,23 @@ This dataset focuses on complex metallic structures with multi-branched geometri
 *(a-g) Various branched metal structures*
 
 #### Training Data
-* [cite_start]**Total Samples:** 8,448 [cite: 102]
-* [cite_start]**Incident Angles ($\theta$):** 8 directions $[0^\circ, \dots, 315^\circ]$ [cite: 98]
-* [cite_start]**Positioning:** 16 random center positions ($c_x, c_y$) per configuration[cite: 99].
+* **Total Samples:** 8,448 
+* **Incident Angles ($\theta$):** 8 directions $[0^\circ, \dots, 315^\circ]$ 
+* **Positioning:** 16 random center positions ($c_x, c_y$) per configuration.
 
 | Shape | Parameter Configuration (nm) | Count |
 | :--- | :--- | :--- |
-| **(a)** | $L_1=[160:50:310]$, $L_2=[60:20:100]$ | [cite_start]1,152 [cite: 100] |
-| **(b)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=90$, $L_4=[100:50:200]$ | [cite_start]1,152 [cite: 100] |
-| **(c)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=120$, $L_4=[100:50:200]$ | [cite_start]1,536 [cite: 100] |
-| **(d)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=90$, $L_4=[100:50:200]$ | [cite_start]1,152 [cite: 100] |
-| **(e)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=120$, $L_4=[100:50:200]$ | [cite_start]1,152 [cite: 101] |
-| **(f)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=90$, $L_4=[100:50:200]$ | [cite_start]1,152 [cite: 101] |
-| **(g)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=120$, $L_4=[100:50:200]$ | [cite_start]1,152 [cite: 101] |
+| **(a)** | $L_1=[160:50:310]$, $L_2=[60:20:100]$ | 1,152 |
+| **(b)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=90$, $L_4=[100:50:200]$ | 1,152 |
+| **(c)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=120$, $L_4=[100:50:200]$ | 1,536 |
+| **(d)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=90$, $L_4=[100:50:200]$ | 1,152 |
+| **(e)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=120$, $L_4=[100:50:200]$ | 1,152 |
+| **(f)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=90$, $L_4=[100:50:200]$ | 1,152 |
+| **(g)** | $L_1=[160:75:310]$, $L_2=80$, $L_3=120$, $L_4=[100:50:200]$ | 1,152 |
 
 #### Generalization (Test) Data
-* [cite_start]**Total Samples:** 112 [cite: 153]
-* [cite_start]**Configurations:** Testing on continuous parameter ranges (e.g., $L_1=[110, 360]$) with specific fixed angles for each shape [cite: 104-152].
+* **Total Samples:** 112 
+* **Configurations:** Testing on continuous parameter ranges (e.g., $L_1=[110, 360]$) with specific fixed angles for each shape.
 
 ---
 
@@ -83,13 +83,13 @@ Datasets designed for transfer learning tasks involving multiple interacting sca
 *(a) Configuration 1, (b) Configuration 2*
 
 #### Dataset Specifications
-* [cite_start]**Total Samples:** 3,456 [cite: 167]
-* [cite_start]**Incident Angles:** 8 directions[cite: 169].
+* **Total Samples:** 3,456
+* **Incident Angles:** 8 directions.
 
 **Augmentation & Variations:**
-1.  [cite_start]**Rotation:** Each scatterer is randomly rotated around its center in the range $[0^\circ, 360^\circ]$ (2 values sampled)[cite: 164].
-2.  [cite_start]**Scaling:** Each scatterer is randomly scaled in the range $[0.8, 1.2]$ (3 values sampled)[cite: 165].
+1.  **Rotation:** Each scatterer is randomly rotated around its center in the range $[0^\circ, 360^\circ]$ (2 values sampled).
+2.  **Scaling:** Each scatterer is randomly scaled in the range $[0.8, 1.2]$ (3 values sampled).
 
 **Scenarios:**
-* [cite_start]**Scenario (a):** Based on Shape B(2) parameters ($L_1=320, L_2=80, L_3=90, L_4=200$) [cite: 154-158].
-* [cite_start]**Scenario (b):** Based on Shape B(5) parameters ($L_1=320, L_2=80, L_3=120, L_4=200$) [cite: 159-163].
+* **Scenario (a):** Based on Shape B(2) parameters ($L_1=320, L_2=80, L_3=90, L_4=200$) .
+* **Scenario (b):** Based on Shape B(5) parameters ($L_1=320, L_2=80, L_3=120, L_4=200$) .
