@@ -34,11 +34,11 @@ This dataset consists of 5 basic geometric shapes defined by parameters $L_1$, $
 
 | Shape | Geometry Parameters (nm) | Sampling Strategy | Count |
 | :--- | :--- | :--- | :--- |
-| **(a)** | $L_1 \in [300:60:600]$ | 16 pos combinations | [cite_start]768 [cite: 6] |
-| **(b)** | $L_1 \in [360:80:640]$, $L_2 \in [400:100:700]$ | 16 pos combinations | [cite_start]2,048 [cite: 11] |
-| **(c)** | $L_1 \in [360:80:650]$, $L_2 \in [400:150:700]$ | 16 pos combinations | [cite_start]1,536 [cite: 16] |
-| **(d)** | $L_1 \in [320:80:600]$, $L_2 \in [350:100:650]$, $L_3 \in [400:100:600]$ | 4 pos combinations | [cite_start]1,536 [cite: 22] |
-| **(e)** | $L_2 \in [350:100:650]$, $L_1 \in [0.4L_2:0.15L_2:0.7L_2]$ | 16 pos combinations | [cite_start]1,536 [cite: 27] |
+| **(a)** | $L_1 \in [300:60:600]$ | 16 pos combinations | 768  |
+| **(b)** | $L_1 \in [360:80:640]$, $L_2 \in [400:100:700]$ | 16 pos combinations | 2,048  |
+| **(c)** | $L_1 \in [360:80:650]$, $L_2 \in [400:150:700]$ | 16 pos combinations | 1,536  |
+| **(d)** | $L_1 \in [320:80:600]$, $L_2 \in [350:100:650]$, $L_3 \in [400:100:600]$ | 4 pos combinations | 1,536  |
+| **(e)** | $L_2 \in [350:100:650]$, $L_1 \in [0.4L_2:0.15L_2:0.7L_2]$ | 16 pos combinations | 1,536 |
 
 #### Generalization (Test) Data
 A separate set for testing generalization with distinct parameter ranges and specific angles.
