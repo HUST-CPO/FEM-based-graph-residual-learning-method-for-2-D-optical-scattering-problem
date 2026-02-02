@@ -17,7 +17,7 @@ If you find FemGRL useful for your research, please consider giving a star. Than
 ## Data type
 **Global Simulation Settings:**
 - **Incident Field:** Plane wave defined as $E_{inc} = [1, 0, 0]e^{i(k_0 x \cos\theta + k_0 y \sin\theta)}$.
-- **Center Position ($c_x, c_y$):** Randomly sampled within the range $[-500, 500]$ nm.
+- **Center Position ($c_x, c_y$):** Randomly sampled within the range $[-500, 500]nm$ .
 
 ---
 
@@ -46,7 +46,7 @@ This dataset consists of 5 basic geometric shapes defined by parameters $L_1$, $
 #### Generalization (Test) Data
 A separate set for testing generalization with distinct parameter ranges and specific angles.
 * **Total Samples:** 88
-* **Configurations:** Includes specific continuous ranges (e.g., $L_1 \in [200, 800]$ nm) and single incident angles per shape (e.g., $\theta=0^\circ$ for Circle).
+* **Configurations:** Includes specific continuous ranges (e.g., $L_1 \in [200, 800]nm$ ) and single incident angles per shape (e.g., $\theta=0^\circ$ for Circle).
 
 ---
 
@@ -77,7 +77,7 @@ This dataset focuses on complex metallic structures with multi-branched geometri
 
 #### Generalization (Test) Data
 * **Total Samples:** 112 
-* **Configurations:** Testing on continuous parameter ranges (e.g., $L_1=[110, 360]$) with specific fixed angles for each shape.
+* **Configurations:** Testing on continuous parameter ranges (e.g., $L_1=[110, 360]nm$) with specific fixed angles for each shape.
 
 ---
 
