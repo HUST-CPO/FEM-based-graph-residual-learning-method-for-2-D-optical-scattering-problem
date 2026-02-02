@@ -26,7 +26,6 @@ If you find FemGRL useful for your research, please consider giving a star. Than
 This dataset consists of 5 basic geometric shapes defined by parameters $L_1$, $L_2$, and $L_3$.
 
 ![Basic Lossless Scatterers](<Basic lossless scatterers.png>)
-*(a) Circle, (b) Ellipse, (c) Rectangle, (d) Trapezoid, (e) Cross*
 
 #### Training Data
 * **Total Samples:** 7,424 
