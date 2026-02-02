@@ -100,5 +100,5 @@ Datasets designed for transfer learning tasks involving multiple interacting sca
 2.  **Scaling:** Each scatterer is randomly scaled in the range $[0.8, 1.2]$ (3 values sampled).
 
 **Scenarios:**
-* **Scenario (a):** Based on Shape B(2) parameters ($L_1=320, L_2=80, L_3=90, L_4=200$) .
-* **Scenario (b):** Based on Shape B(5) parameters ($L_1=320, L_2=80, L_3=120, L_4=200$) .
+* **Scenario (a):** Based on Shape (a) parameters ($L_1=320, L_2=80, L_3=90, L_4=200$) .
+* **Scenario (b):** Based on Shape (b) parameters ($L_1=320, L_2=80, L_3=120, L_4=200$) .
